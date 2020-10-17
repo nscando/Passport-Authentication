@@ -20,7 +20,7 @@ class UserMoviesService {
     return createdUserMovieId;
   };
 
-  async deleUserMovie({ userMovieId }) {
+  async deleteUserMovie({ userMovieId }) {
     const deletedUserMovieId = await this.mongoDB.delete(this.collection, userMovieId);
 
     return deletedUserMovieId;
