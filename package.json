@@ -23,7 +23,7 @@
     "jsonwebtoken": "^8.5.1",
     "mocha": "^8.2.0",
     "mongodb": "^3.6.2",
-    "passport": "^0.4.1",
+    "passport": "^0.7.0",
     "passport-http": "^0.3.0",
     "passport-jwt": "^4.0.0",
     "proxyquire": "^2.1.3",
